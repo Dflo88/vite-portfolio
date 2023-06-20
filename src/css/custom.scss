@@ -1,0 +1,166 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #40546f;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0% 18% 0% 18%;
+  line-height: 1.6;
+  overflow: auto;
+}
+
+.header{
+    margin: 6% 0% 6% 0%;
+}
+
+#nameHeader {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#titleHeader {
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+
+ion-icon {
+    color: $primary-color;
+    border-radius: 5px;
+  }
+
+ion-icon:hover {
+    color: white;
+    background-color: $primary-color;
+}
+
+.socialMediaIcons {
+    margin-right: 1%;
+}
+
+.aboutMeSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6%;
+}
+
+.sectionHeader {
+    font-weight: 700;
+    font-size: 180%;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 6fr 15fr;
+    grid-template-rows: 100%;
+    height: 300px;
+    margin-left: -5%;
+    margin-bottom: 10%;
+}
+
+.projectImageBox {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    background-color: #40546f;
+    width: 90%;
+    height: 90%;
+    align-self: center;
+    border-radius: 11px;
+}
+
+.projectImage {
+    border-radius: 5px;
+    margin: 26% 13%;
+}
+
+.projectCard {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    margin: 6%;
+    line-height: 1.6;
+}
+
+.projectCardStyle {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 11px;
+}
+
+.projectTitle {
+    font-size: 160%;
+}
+
+.projectLinksContainer {
+    text-align: left;
+}
+
+.projectLinks {
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.projectLinks:link {
+    color: $primary-color;
+}
+
+.projectLinks:visited {
+    color: $primary-color;
+}
+
+.projectLinks:hover {
+    color: #c0ccdb;
+}
+
+.projectBuildTools {
+    color: #74b2d4;
+}
+
+.projectDescription {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.contactInfo {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+
+.contactInfoEmail:link {
+    color: $primary-color;
+}
+
+.contactInfoEmail:visited {
+    color: $primary-color;
+}
+
+.contactInfoEmail:hover {
+    color: #c0ccdb;
+}
+
+.socialMediaLinksStyle {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.socialMediaLinks {
+    text-decoration: none;
+}
+
+.socialMediaLinks:link {
+    color: $primary-color;
+}
+
+.socialMediaLinks:visited {
+    color: $primary-color;
+}
+
+.socialMediaLinks:hover {
+    color: #c0ccdb;
+}
