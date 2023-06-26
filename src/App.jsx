@@ -2,6 +2,7 @@ import ProjectComp from './ProjectComp';
 import vstdaImage from './assets/images/vstdaImage.png'
 import breweryFinderImage from './assets/images/breweryFinderImage.png'
 import portfolioImage from './assets/images/portfolioImage.png'
+import MobileProjectComp from './MobileProjectComp';
 
 function App() {
 
@@ -51,6 +52,21 @@ function App() {
               buildTools = 'React || Netlify '
               description = 'Clean portfolio created with React and deployed with Netlify'
               githubLink = 'https://github.com/Dflo88/vite-portfolio'
+          />
+          <MobileProjectComp
+            image={breweryFinderImage}
+            title = 'Brewery Finder'
+            buildTools = 'React || Express'
+            description = 'An app that uses your ip address to find any local breweries.'
+            githubLink = 'https://github.com/Dflo88/react-100-brewery-finder'
+            deployLink = 'https://dflores7237-brewery-finder.herokuapp.com/'
+          />
+           <MobileProjectComp
+              image={portfolioImage}
+              title = 'Portfolio'
+              buildTools = 'React || Heroku '
+              description = 'Clean portfolio created with React and deployed with Heroku'
+              githubLink = 'https://github.com/Dflo88/Portfolio'
           />
           <div className='contactInfo'>Lets Talk! &nbsp;
               <a className='contactInfoEmail' href="mailto:DFlores@gmail.com">DFlores7237@gmail.com</a>
