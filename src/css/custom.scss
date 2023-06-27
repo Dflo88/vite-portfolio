@@ -127,9 +127,14 @@ ion-icon:hover {
 
 .contactInfo {
     text-align: center;
-    font-size: 180%;
     font-weight: 700;
-    margin-bottom: 8%;
+    margin-bottom: 20px;
+}
+
+.contactInfoEmail {
+  display: block;
+  text-align: center;
+  font-size: 30px;
 }
 
 .contactInfoEmail:link {
@@ -163,4 +168,34 @@ ion-icon:hover {
 
 .socialMediaLinks:hover {
     color: #c0ccdb;
+}
+
+/*** Mobile View ****/
+.mobileLinkBtn {
+  font-size: 25px;
+}
+
+.card {
+  color: $primary-color;
+  margin-bottom: 35px;
+}
+
+.mobileImageWrapper {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color;
+  border-top-left-radius: 11px;
+  border-top-right-radius: 11px;
+
+}
+.card-img-top {
+  width: 85%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+i.bi {
+  color: $primary-color;
 }
